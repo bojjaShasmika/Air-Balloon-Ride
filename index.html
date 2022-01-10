@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+
+    <!--to connect the firebase and Visual Studio Code Editore-->
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+  <!-- access your database for this project-->
+
+    <script>
+      
+      const firebaseConfig = {
+        apiKey: "AIzaSyAToZDLQ0zzCT2Z2JkRU4SwikMz7e8iAYw",
+        authDomain: "project-35---air-balloon-75249.firebaseapp.com",
+        databaseURL: "https://project-35---air-balloon-75249-default-rtdb.firebaseio.com",
+        projectId: "project-35---air-balloon-75249",
+        storageBucket: "project-35---air-balloon-75249.appspot.com",
+        messagingSenderId: "509189210129",
+        appId: "1:509189210129:web:5c4d28a411d3c1c02cb1b0"
+      };
+    
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
